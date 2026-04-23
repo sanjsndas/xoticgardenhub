@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cookies Policy of Xotic Garden Hub – Understand how we use cookies, tracking technologies, and your control options to enhance your gardening experience.">
+    <title>Cookies Policy | Xotic Garden Hub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f7e8;
+            color: #1a3b2f;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f4c3a, #1b6b4a);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            background: #2e7d5e;
+            padding: 1rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #d4e6b0;
+        }
+
+        .container {
+            max-width: 1300px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Cookies Hero Section */
+        .cookies-hero {
+            background: linear-gradient(105deg, #1b6b4a 0%, #2e7d5e 100%);
+            border-radius: 32px;
+            padding: 2.5rem;
+            text-align: center;
+            color: white;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+        }
+
+        .cookies-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .cookies-hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            opacity: 0.92;
+        }
+
+        /* main content card */
+        .cookies-card {
+            background: white;
+            border-radius: 32px;
+            padding: 2.5rem;
+            box-shadow: 0 12px 28px rgba(0,0,0,0.06);
+            margin-bottom: 2rem;
+        }
+
+        .cookies-card h2 {
+            color: #1b5e3f;
+            font-size: 1.8rem;
+            margin-top: 1.8rem;
+            margin-bottom: 1rem;
+            border-left: 5px solid #2e7d5e;
+            padding-left: 1rem;
+        }
+
+        .cookies-card h2:first-of-type {
+            margin-top: 0;
+        }
+
+        .cookies-card h3 {
+            color: #0f4c3a;
+            margin: 1.2rem 0 0.6rem;
+            font-size: 1.3rem;
+        }
+
+        .cookies-card p {
+            margin-bottom: 1rem;
+            color: #2c4a3b;
+        }
+
+        .cookies-card ul, .cookies-card ol {
+            margin: 0.8rem 0 1.2rem 1.8rem;
+            color: #2c4a3b;
+        }
+
+        .cookies-card li {
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight-box {
+            background: #eef7ea;
+            border-left: 4px solid #2e7d5e;
+            padding: 1.2rem 1.5rem;
+            border-radius: 20px;
+            margin: 1.5rem 0;
+        }
+
+        .badge-date {
+            display: inline-block;
+            background: #e2f0dc;
+            padding: 0.3rem 1rem;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #1b5e3f;
+            margin-bottom: 1rem;
+        }
+
+        .cookie-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            background: #fefef7;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+        }
+
+        .cookie-table th, .cookie-table td {
+            border: 1px solid #cde2d4;
+            padding: 12px 15px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .cookie-table th {
+            background: #e1f0e0;
+            color: #1b5e3f;
+            font-weight: 700;
+        }
+
+        .cookie-table td {
+            background: white;
+        }
+
+        .btn-policy {
+            background: #2e7d5e;
+            color: white;
+            text-decoration: none;
+            padding: 0.7rem 1.8rem;
+            border-radius: 40px;
+            display: inline-block;
+            margin-top: 0.8rem;
+            font-weight: bold;
+            transition: 0.2s;
+            border: none;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+
+        .btn-policy:hover {
+            background: #1b5e3f;
+            transform: translateY(-2px);
+        }
+
+        .preferences-panel {
+            background: #f9fef5;
+            border-radius: 28px;
+            padding: 1.8rem;
+            margin: 2rem 0 1rem;
+            border: 1px solid #cde2d4;
+            text-align: center;
+        }
+
+        .cookie-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+
+        .btn-secondary {
+            background: #e2f0dc;
+            color: #1b5e3f;
+            border: none;
+            padding: 0.6rem 1.5rem;
+            border-radius: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .btn-secondary:hover {
+            background: #c8e0bc;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            background: #0a2e24;
+            color: #cdedd8;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #b6e6c9;
+            text-decoration: none;
+        }
+
+        @media (max-width: 800px) {
+            .cookies-card {
+                padding: 1.5rem;
+            }
+            .cookies-hero h1 {
+                font-size: 1.8rem;
+            }
+            nav a {
+                display: inline-block;
+                margin: 0.4rem;
+            }
+            .cookie-table th, .cookie-table td {
+                padding: 8px 10px;
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🌿 Xotic Garden Hub</h1>
+    <p>Where exotic meets sustainable – your complete gardening encyclopedia</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="terms.html">Terms Of Privacy</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="cookies.html">Cookies Policy</a>
+</nav>
+
+<div class="container">
+    <!-- cookies hero section -->
+    <div class="cookies-hero">
+        <h1>🍪 Cookies Policy</h1>
+        <p>Just like a garden needs the right amount of sunlight and water, our website uses cookies to nurture your browsing experience. Discover what cookies we serve and how you stay in control.</p>
+    </div>
+
+    <div class="cookies-card">
+        <div class="badge-date">📅 Last updated: April 15, 2025</div>
+        <p><strong>Xotic Garden Hub</strong> (“we”, “us”, “our”) uses cookies and similar tracking technologies on our website <strong>xoticgardenhub.com</strong> (the “Site”) to enhance functionality, analyze performance, and personalize content. This Cookies Policy explains what these technologies are, why we use them, and how you can manage your preferences. By continuing to browse our Site, you agree to our use of cookies as described, unless you have set your browser to reject them.</p>
+
+        <h2>🌿 1. What Are Cookies?</h2>
+        <p>Cookies are small text files stored on your device (computer, smartphone, tablet) when you visit a website. They help websites remember your actions and preferences (such as login, language, font size, and other display preferences) over a period of time, so you don’t have to keep re-entering them whenever you come back or browse from one page to another. Cookies can be “persistent” (remain after you close your browser) or “session” (deleted when you close your browser).</p>
+        <div class="highlight-box">
+            🌱 <strong>Gardening analogy:</strong> Think of cookies like plant markers in a botanical garden — they help us recognize your favorite section, remember your preferred soil tips, and give you a seamless journey through our lush content.
+        </div>
+
+        <h2>🍪 2. Types of Cookies We Use</h2>
+        <p>We use a balanced mix of first-party and third-party cookies to ensure our website grows better every day. Below is a detailed breakdown:</p>
+
+        <table class="cookie-table">
+            <thead>
+                <tr><th>Cookie Category</th><th>Purpose</th><th>Duration</th><th>Examples</th></tr>
+            </thead>
+            <tbody>
+                <tr><td><strong>Strictly Necessary</strong></td><td>Essential for website functionality: navigation, secure login, form submissions, and cookie consent memory. Without these, the Site would not work properly.</td><td>Session / Persistent (up to 1 year)</td><td>session_id, csrf_token, cookie_consent</td></tr>
+                <tr><td><strong>Performance & Analytics</strong></td><td>Help us understand how visitors interact with our gardening guides, which articles are most popular, and track anonymous usage data to improve user experience.</td><td>Persistent (up to 2 years)</td><td>Google Analytics (_ga, _gid), hotjar metrics</td></tr>
+                <tr><td><strong>Functional Preferences</strong></td><td>Remember your preferences such as language, region (growing zone), and saved gardening checklist items.</td><td>Persistent (up to 12 months)</td><td>user_zone_pref, language_selection, favorite_plants</td></tr>
+                <tr><td><strong>Marketing & Targeting</strong> (optional)</td><td>Used to deliver relevant gardening ads, promotions (workshops, plant sales) and limit how many times you see an ad. We never sell your data.</td><td>Persistent (up to 90 days)</td><td>Facebook Pixel, Google Ads remarketing</td></tr>
+            </tbody>
+        </table>
+        <p>Note: Third-party cookies are subject to the respective privacy policies of providers (e.g., Google, Meta). We only partner with trusted services that align with our commitment to transparency.</p>
+
+        <h2>🛠️ 3. How to Manage or Disable Cookies</h2>
+        <p>You are in full control of your cookie garden! You can adjust your preferences at any time through our Cookie Consent Tool (available via the floating "🍪 Cookie Settings" button on our website) or directly via your browser settings. Below are some practical ways to manage cookies:</p>
+        <ul>
+            <li><strong>Browser Controls:</strong> Most browsers allow you to block or delete cookies via privacy settings. Find instructions for <a href="#" style="color:#2e7d5e;">Chrome</a>, <a href="#" style="color:#2e7d5e;">Firefox</a>, <a href="#" style="color:#2e7d5e;">Safari</a>, <a href="#" style="color:#2e7d5e;">Edge</a> (links to official help pages).</li>
+            <li><strong>Opt-out of Analytics:</strong> You can install the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" style="color:#2e7d5e;">Google Analytics Opt-out Browser Add-on</a>.</li>
+            <li><strong>Global Privacy Control (GPC):</strong> If your browser sends a GPC signal, we will automatically honor your opt-out preference for non-essential cookies.</li>
+        </ul>
+        <div class="preferences-panel">
+            <p><strong>🍪 Your cookie preferences matter to us.</strong> Use the buttons below to simulate adjusting your consent preferences (this will store a preference cookie).</p>
+            <div class="cookie-buttons">
+                <button id="acceptAllCookies" class="btn-policy">✅ Accept All Cookies</button>
+                <button id="rejectNonEssential" class="btn-secondary">❌ Reject Non-Essential (Only Necessary)</button>
+                <button id="resetCookiesPref" class="btn-secondary">🔄 Reset Preferences</button>
+            </div>
+            <p style="font-size: 0.8rem; margin-top: 1rem;">*Your choice will be remembered for 12 months. You can change this anytime via the cookie settings link in the footer or this panel.</p>
+        </div>
+
+        <h2>📊 4. Analytics & Performance Cookies – Growing Better Together</h2>
+        <p>We use first-party analytics tools (like Google Analytics 4) to measure traffic, popular content, and user flow. This helps us identify which plant care guides are most helpful, optimize page load times, and discover what topics our community loves. All analytics data is anonymized (IP masking enabled) and never linked to your personal identity. We also use internal heatmaps (via open-source tools) to improve design – no personal data is captured.</p>
+
+        <h2>🔐 5. Third-Party Services & Embedded Content</h2>
+        <p>Our Site may include embedded YouTube videos (gardening tutorials), Instagram posts from exotic plant lovers, or Google Maps showing our nursery locations. These third-party services may set their own cookies when you interact with them. We do not control these cookies, and we encourage you to check the respective privacy policies of those platforms. However, we only embed content from reputable partners that respect user privacy.</p>
+
+        <h2>📜 6. Your Rights & Cookie Choices under GDPR / Indian DPDP Act</h2>
+        <p>Under applicable privacy laws (including GDPR and the upcoming Indian Digital Personal Data Protection Act), you have the right to withdraw consent for non-essential cookies at any time. We provide a clear, interactive cookie banner upon your first visit. To exercise your cookie choices:</p>
+        <ul>
+            <li>✔ Click “Cookie Settings” on the bottom-left corner of any page.</li>
+            <li>✔ Adjust your preferences using the interactive toggles (Necessary, Analytics, Functional, Marketing).</li>
+            <li>✔ Contact our Data Protection Officer at <a href="mailto:dpo@xoticgardenhub.com" style="color:#2e7d5e;">dpo@xoticgardenhub.com</a> for any cookie-related inquiry.</li>
+        </ul>
+        <div class="highlight-box">
+            🌻 <strong>Transparency update:</strong> Xotic Garden Hub does NOT use fingerprinting, supercookies, or any other covert tracking techniques. We believe in ethical technology that respects your digital autonomy, just like organic gardening respects the earth.
+        </div>
+
+        <h2>⏳ 7. Retention & Updates to This Policy</h2>
+        <p>Most persistent cookies we set expire within 12 months. Analytics cookies may have a longer lifespan up to 2 years but are refreshed upon revisit. We may update this Cookies Policy occasionally to reflect new regulations or changes in our cookie inventory. The “Last updated” date at the top indicates the latest revision. Material changes will be notified via a site-wide banner. Your continued use of our Site after such modifications constitutes acceptance of the revised policy.</p>
+
+        <h2>📧 8. More Information & Contact</h2>
+        <p>If you have any questions about our use of cookies, wish to access a list of cookies currently stored, or need assistance with disabling them, please reach out to our Privacy Team. We promise a response within 5 business days.</p>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:cookies@xoticgardenhub.com">cookies@xoticgardenhub.com</a> – dedicated cookie support</li>
+            <li><strong>Postal:</strong> Xotic Garden Hub – Privacy Office, 123 Green Valley Avenue, Eco Park, Bangalore – 560001, India</li>
+            <li><strong>Phone:</strong> +91 98765 43210 (ask for Data Protection team)</li>
+        </ul>
+
+        <div class="contact-ref" style="background: #fefcf0; border-radius: 24px; padding: 1.5rem; margin-top: 1.5rem; text-align: center; border: 1px solid #cde2d4;">
+            <p>🍪 <strong>Remember:</strong> You can always clear your cookie jar! Blocking or deleting cookies may affect some functionality, such as saving your favorite growing zone or remembering your language preference. We strive to keep essential features available even without cookies.</p>
+            <a href="contact.html" class="btn-policy">📬 Speak with our Cookie Specialist</a>
+        </div>
+    </div>
+
+    <!-- additional gardening themed faq about cookies -->
+    <div class="cookies-card">
+        <h2>🌱 Frequently Asked Questions About Cookies</h2>
+        <h3>❓ Do cookies collect my personal information like name or email?</h3>
+        <p>No. Standard cookies cannot read your personal files or capture sensitive data such as your name, address, or payment details. However, if you are logged into your account (future member area), cookies help maintain your session but they do not expose your credentials. For more details, refer to our <a href="privacy.html" style="color:#2e7d5e;">Privacy Policy</a>.</p>
+        <h3>❓ Can I browse Xotic Garden Hub without cookies?</h3>
+        <p>Absolutely! You can set your browser to block all cookies, but some features may not work as seamlessly — for example, the plant identifier tool might not remember your recent searches. The core reading experience, however, remains fully accessible.</p>
+        <h3>❓ Does Xotic Garden Hub use cookies for advertising retargeting?</h3>
+        <p>We may use limited, privacy-friendly retargeting cookies only if you have explicitly consented. For instance, if you looked at a page about rare orchids, you might see a subtle non-intrusive ad about our orchid webinar. You can opt out at any time via our preference center.</p>
+        <h3>❓ How often do you audit your cookies?</h3>
+        <p>We perform a quarterly cookie scan to ensure only necessary and declared cookies are active. Our commitment to transparency includes publishing the list of cookies in our developer portal upon request.</p>
+        <div class="highlight-box" style="background: #f9f2e0;">
+            🌼 <strong>Did you know?</strong> We treat your cookie preferences like heirloom seeds — stored safely and only used for their intended purpose. No unexpected surprises, no hidden tracking.
+        </div>
+    </div>
+
+    <!-- final note on compliance & user rights -->
+    <div class="cookies-card" style="background: #fefcf5;">
+        <h2>🛡️ Consent & Cookie Governance</h2>
+        <p>By using the Xotic Garden Hub website, you agree to the placement of strictly necessary cookies. For all other categories, we ask for your explicit consent via our cookie banner. You can modify your preferences any time using the “Cookie Preferences” link in the website footer or the interactive panel above. We are fully compliant with ePrivacy Directive (Cookie Law), GDPR, and CCPA regulations. Your privacy is not an afterthought; it's part of our gardening philosophy — cultivate, don't exploit.</p>
+        <p style="margin-top: 1rem;"><strong>© 2025 Xotic Garden Hub – Growing trust, one cookie at a time.</strong></p>
+    </div>
+</div>
+
+<footer>
+    <p>📍 <strong>Xotic Garden Hub</strong> – 123 Green Valley Avenue, Eco Park, Bangalore – 560001, India</p>
+    <p>📞 <strong>Phone:</strong> +91 98765 43210 | ✉️ <a href="mailto:hello@xoticgardenhub.com">hello@xoticgardenhub.com</a></p>
+    <p>🌱 Follow us for daily gardening inspiration | © 2025 Xotic Garden Hub – Cultivating Excellence</p>
+    <p><a href="privacy.html">Privacy Policy</a> | <a href="cookies.html">Cookies Policy</a> | <a href="terms.html">Terms of Use</a> | <a href="#" id="openCookieSettingsLink">🍪 Cookie Preferences</a></p>
+</footer>
+
+<script>
+    (function() {
+        // Helper functions to manage cookie consent simulation (for demonstration & user preference storage)
+        function setCookiePreference(pref) {
+            // pref = 'all' or 'necessary'
+            const expiryDate = new Date();
+            expiryDate.setFullYear(expiryDate.getFullYear() + 1);
+            document.cookie = `cookie_consent_pref=${pref}; expires=${expiryDate.toUTCString()}; path=/; SameSite=Lax`;
+            // also store a local flag for UI feedback
+            localStorage.setItem('xotic_cookie_choice', pref);
+            showToastMessage(`Cookie preference updated: ${pref === 'all' ? 'All cookies allowed' : 'Only necessary cookies enabled'}. Refresh page to apply changes.`);
+        }
+
+        function showToastMessage(msg) {
+            // simple non-intrusive alert replacement with a floating toast
+            let toast = document.createElement('div');
+            toast.innerText = msg;
+            toast.style.position = 'fixed';
+            toast.style.bottom = '20px';
+            toast.style.left = '20px';
+            toast.style.backgroundColor = '#1b5e3f';
+            toast.style.color = 'white';
+            toast.style.padding = '12px 20px';
+            toast.style.borderRadius = '40px';
+            toast.style.fontSize = '0.9rem';
+            toast.style.zIndex = '9999';
+            toast.style.boxShadow = '0 4px 12px rgba(0,0,0,0.2)';
+            toast.style.fontWeight = 'bold';
+            document.body.appendChild(toast);
+            setTimeout(() => {
+                toast.style.opacity = '0';
+                setTimeout(() => toast.remove(), 500);
+            }, 3000);
+        }
+
+        function getCookiePreference() {
+            let match = document.cookie.match(/(^| )cookie_consent_pref=([^;]+)/);
+            if (match) return match[2];
+            let localPref = localStorage.getItem('xotic_cookie_choice');
+            if (localPref) return localPref;
+            return null;
+        }
+
+        // Apply dummy handling for demonstration (console logging)
+        function applyConsentBasedOnPreference() {
+            let pref = getCookiePreference();
+            if (pref === 'necessary') {
+                console.log("🍪 Xotic Garden Hub: Only necessary cookies active (analytics & marketing disabled)");
+                // in real implementation, we'd disable GA or tracking scripts
+            } else if (pref === 'all') {
+                console.log("🍪 Xotic Garden Hub: Full cookie consent granted — analytics and functional cookies active.");
+            } else {
+                console.log("🍪 Xotic Garden Hub: No explicit preference stored — default to necessary only (implied).");
+            }
+        }
+
+        // UI button handlers
+        const acceptAllBtn = document.getElementById('acceptAllCookies');
+        const rejectNonEssentialBtn = document.getElementById('rejectNonEssential');
+        const resetBtn = document.getElementById('resetCookiesPref');
+        const footerPrefLink = document.getElementById('openCookieSettingsLink');
+
+        if (acceptAllBtn) {
+            acceptAllBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                setCookiePreference('all');
+                applyConsentBasedOnPreference();
+            });
+        }
+        if (rejectNonEssentialBtn) {
+            rejectNonEssentialBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                setCookiePreference('necessary');
+                applyConsentBasedOnPreference();
+            });
+        }
+        if (resetBtn) {
+            resetBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                document.cookie = "cookie_consent_pref=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+                localStorage.removeItem('xotic_cookie_choice');
+                showToastMessage("Cookie preferences reset. Refresh to see cookie banner again.");
+                applyConsentBasedOnPreference();
+            });
+        }
+        if (footerPrefLink) {
+            footerPrefLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                // scroll to preferences panel
+                const panel = document.querySelector('.preferences-panel');
+                if (panel) {
+                    panel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    panel.style.transition = '0.2s';
+                    panel.style.boxShadow = '0 0 0 2px #2e7d5e';
+                    setTimeout(() => { panel.style.boxShadow = ''; }, 1500);
+                } else {
+                    showToastMessage('Use the cookie preference panel above to manage settings.');
+                }
+            });
+        }
+
+        // initial load: check existing pref and log
+        applyConsentBasedOnPreference();
+
+        // optional: add a small decorative console greeting
+        console.log("🍪 Xotic Garden Hub – Cookies Policy loaded. You are in control of your digital garden.");
+    })();
+</script>
+</body>
+</html>
